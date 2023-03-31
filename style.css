@@ -1,0 +1,99 @@
+/* navbar */
+
+.dropdown-menu {
+  box-shadow: 0px 0px 10px rgb(231, 226, 226);
+  width: 30vh;
+  justify-content: flex-start;
+}
+.img-drop {
+  width: 7vh;
+}
+.button-8 {
+  margin-top: -1vh;
+  margin-bottom: 1vh;
+  padding: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.dropstart ul {
+  margin-top: 11vh;
+  right: 0vh;
+}
+
+/* hero-section */
+
+.search-box {
+  width: 70vh;
+  box-shadow: 0px 0px 10px rgb(223, 223, 223);
+}
+.search-btn {
+  border: 0px !important;
+  outline: none;
+}
+
+/* progress cards */
+
+.progress-card {
+  position: relative;
+  height: 120% !important;
+  padding: 10%;
+  width: 100%;
+}
+.progress-card:after {
+  content: " ";
+  display: block;
+  width: 60%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: url("/Assets/Star\ 2.png");
+  position: absolute;
+  left: 55%;
+  top: 70%;
+}
+
+/* course cards */
+
+.course-dot {
+  color: #9c8cff;
+}
+.card-video {
+  margin-top: 23%;
+  margin-left: 40%;
+}
+.card-course{
+  transition: 1s;
+}
+.card-course:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+/* work manual */
+
+.manual-star {
+  width: 4vh;
+}
+
+/* educators */
+
+.card-educator {
+  box-shadow: 0px 15px 10px -15px rgb(212, 212, 212);
+  height: 100% !important;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 767px) {
+  .img-drop {
+    margin-left: 115%;
+    margin-top: -17vh;
+  }
+  .search-box {
+    width: 40vh;
+  }
+  .card-video {
+    margin-top: 18%;
+    margin-left: 40%;
+  }
+}
